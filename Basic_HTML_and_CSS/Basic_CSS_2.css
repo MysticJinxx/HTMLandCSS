@@ -1,6 +1,8 @@
 p {
-	color: LawnGreen;
+	color: red;
 	background: black;
 	font-weight: 900;
+	font-size: 60px;
 	text-align: center;
+	text-shadow: 4px 4px #F0F8FF;
 }	
