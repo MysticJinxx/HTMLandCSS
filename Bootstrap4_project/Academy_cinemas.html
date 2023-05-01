@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Northern Adventure</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!--NAVBAR-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#Info">Info</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#Adventures">Adventures</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#Newsletter">Newsletter</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--END NAVBAR-->
+
+        <!--JUMBOTRON-->
+
+        <div class="jumbotron jumbotron-fluid bg-info text-center">
+            <div class="container">
+                <h1 class="display-4 text-light">Northern Adventure</h1>
+                <p class="lead text-light">Explore the Great North!</p>
+            </div>
+        </div>
+
+        <!--END JUMBOTRON-->
+
+        <!--COLUMNS-->
+        <div id="Info" class="container">
+            <div class="row">
+                <div class="col-sm">
+                    
+                   <img class="img-fluid" src="./images/image4.jpg" alt=""> 
+
+
+                </div>
+                <div class="col-sm">
+                    
+                    <h3>Explore with us!</h3>
+                    <p>If you have ever wanted to go on an adventure in the snow, wait no more!</p>
+                    <p>We have group trips to several locations in Alaska and Canada!</p>
+                    <p>Go on a snowmobile ride through the Yukon.</p>
+                    <p>Take a dog sled ride and play with our husky puppies!</p>
+                    <p>There is so much to do and see, you'll never want to get out of the snow!</p>
+
+
+                </div>
+                <div class="col-sm">
+                    
+                    <h3>Current Adventures:</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">Northern Lights</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">Backpacking Through the Wilderness</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">Wildlife Photography Tour</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--END COLUMNS-->
+
+        <!--ADVENTURES-->
+            
+        <div id="Adventures" class="card-group mb-3 px-5 my-5">
+            <div class="card my-5">
+                <img src="./images/image1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Northern Lights Adventure:</h5>
+                    <p class="card-text">
+                    Take an evening snowmobile ride to our scenic lookout,
+                    and enjoy an amazing view of the northern lights!</p>
+                    <!--PILL BADGES-->
+                    <span class="badge badge-pill badge-info">Evenings</span>
+                    <span class="badge badge-pill badge-info">Daily</span>
+                    <span class="badge badge-pill badge-info">Weather Permitted</span>
+                    <!--END PILL BADGES-->
+                </div>
+            </div>
+            <div class="card my-5">
+                <img src="./images/image2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Backpacking Wilderness Adventure:</h5>
+                    <p class="card-text">Take a backpacking trip through the unforgiving yet unimaginable Alaskan Wilderness.
+                    A guide will lead you on an unforgettable adventure!</p>
+                    <!--PILL BADGES-->
+                    <span class="badge badge-pill badge-info">Sunday Start</span>
+                    <span class="badge badge-pill badge-info">7 Day Trip</span>
+                    <span class="badge badge-pill badge-info">Weather Permitted</span>
+                    <!--END PILL BADGES-->
+                </div>
+            </div>
+            <div class="card my-5">
+                <img src="./images/image3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wildlife Photography Adventure:</h5>
+                    <p class="card-text">One of our professional wildlife photorgraphers takes you out the journey of a lifetime.
+                    See animals in their natural habitats, and learn how to take amazing photos!</p>
+                    <!--PILL BADGES-->
+                    <span class="badge badge-pill badge-info">Morning</span>
+                    <span class="badge badge-pill badge-info">Daily</span>
+                    <span class="badge badge-pill badge-info">Weather Permitted</span>
+                    <!--END PILL BADGES-->
+                </div>
+            </div>
+        </div>
+
+        <!--END ADVENTURES-->
+
+        <!--FORM-->
+        <div id="Newsletter" class="text-center bg-info my-5">
+            <form>
+                <h1 class="text-light my-5">Sign up for our Newsletter!</h1>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label text-light">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext text-light" id="staticEmail" value="email@example.com">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-light">Submit</button>
+                   
+            </form>
+        </div>
+
+        <!--END FORM-->
+
+        <div class="container my-5">
+            <ul class="nav nav-inline">
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Event Schedule</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Info@northernadventure.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Location</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link">&copy;2023 Northern Adventure&reg;</a></small>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
