@@ -1,0 +1,138 @@
+/* NAVBAR */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+/* Links inside bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    opacity: 0.6;
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+/*Image and hover*/
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.overlay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #fff;   
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+img {
+    filter: drop-shadow(8px 8px 10px red);
+    border-radius: 50px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5em;
+}
+
+/*Video*/
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*Table*/
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    margin: 100px auto auto auto;
+    
+}
+
+th {
+    background-color: #a52a2a;
+    color: aliceblue;
+}
+
+/* COLUMNS */
+.row {
+    display: flex;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.column1 {
+    flex: 50%;
+    padding: 10px;
+    background-color: #a52a2a;
+    
+}
+
+.column2 {
+    flex: 50%;
+    padding: 10px;
+    background-color: #da7171;
+
+}
+
+
+/*FOOTER*/
+.footer {
+    text-align: center;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #a52a2a;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+    p {
+       color: blue;
+    }
+}
